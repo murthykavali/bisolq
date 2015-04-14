@@ -1,0 +1,50 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script data-cfasync="false" src="/javascripts/dropit.js"></script>
+    body
+        #common-header
+            section#logo
+                a(href="/home").bisolq BisolQ
+            #navbar
+                ul#navmenu
+                    li
+                        a(href="/home") Home
+                    li
+                        ul#getting-started-menu.menu.dropit
+                            li.dropit-trigger
+                                a(href="/services") Services
+                                ul.dropit-submenu
+                                    li
+                                        a(href="/services/test-and-quality") Test & Quality Engineering
+                                    li
+                                        a(href="/services/packaged-applications") Packaged Applications
+                                    li
+                                        a(href="onsite-or-offshore") Onsite/ Offshore Trainings
+
+                    li
+                        ul#guide-menu.menu.dropit
+                            li.dropit-trigger
+                                a(href="/frameworks") Frameworks
+                                ul.dropit-submenu
+                                    li
+                                        a(href="/testing") test1
+                    li
+                        a(href="/smac") SMAC
+                    li
+                        a(href="/domains") Domains
+                    li
+                        a(href="/team") Team
+                    li
+                        a(href="/contactus") Contact Us
+                    li
+                        a(href="/careers") Careers
+
+
+
+
+        block content
+
