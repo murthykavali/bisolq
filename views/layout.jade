@@ -8,7 +8,8 @@ html
     body
         #common-header
             section#logo
-                a(href="/home").bisolq BisolQ
+                a(href="/").bisolq
+                    img.logo(src="../images/BisolQ-logo.png")
             #navbar
                 ul#navmenu
                     li
@@ -40,11 +41,13 @@ html
                         a(href="/team") Team
                     li
                         a(href="/contactus") Contact Us
-                    li
-                        a(href="/careers") Careers
 
+        #content-placeholder
+            block content
 
+        #common-footer
 
-
-        block content
-
+        #footer-placeholder-id.footer-placeholder
+            p
+                | Address: Hyderbad    | Telangana    | India    |
+                a(href="/careers") Careers
