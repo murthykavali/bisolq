@@ -23,7 +23,7 @@ div#content-placeholder {
     padding-left: 67px;
     font: 400 14px/1.6 "Open Sans", sans-serif;
     color: #555;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 
 /*#logo {
@@ -221,4 +221,7 @@ div#common-footer {
 .footer-placeholder a {
     background-color: transparent;
     text-decoration: none;
+}
+
+.home-about-company{
 }
