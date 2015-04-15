@@ -1,6 +1,6 @@
 .mask {
     float: unset;
-    margin: 40px;
+    margin-left: 40px;
     width: 100%;
     overflow: hidden;
 }
@@ -16,7 +16,7 @@ ul.images li {
 }
 
 ul.triggers {
-    position: absolute;
+    position: static;
     top: 310px;
     left: 80px;
     margin-top: 225px;
