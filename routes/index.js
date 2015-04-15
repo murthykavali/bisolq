@@ -16,8 +16,8 @@ router.get('/frameworks', function (req, res, next) {
 });
 
 /* SMAC */
-router.get('/smac', function (req, res, next) {
-    res.render('index', {title: 'SMAC'});
+router.get('/technologies-and-industries', function (req, res, next) {
+    res.render('index', {title: ''});
 });
 
 /* Domains */
