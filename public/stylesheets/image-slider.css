@@ -1,7 +1,7 @@
 .mask {
     float: unset;
     margin-left: 40px;
-    margin-top:-30px;
+    margin-top:-10px;
     width: 100%;
     overflow: hidden;
 }
@@ -10,11 +10,18 @@ ul.images {
     position: relative;
     top: 0px;
     left: 0px;
+    list-style-type: none;
 }
 
 ul.images li {
     float: left;
+    width: 977px;
 }
+
+ul.images > li > img{
+    width: 935px;
+}
+
 
 ul.triggers {
     position: static;
@@ -22,6 +29,7 @@ ul.triggers {
     left: 80px;
     margin-top: 225px;
     margin-left: 326px;
+    list-style-type: none;
 }
 
 ul.triggers li {

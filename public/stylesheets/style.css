@@ -223,5 +223,8 @@ div#common-footer {
     text-decoration: none;
 }
 
-.home-about-company{
+
+
+#content-placeholder > div.home-about-company {
+    width:977px;
 }
